@@ -57,4 +57,4 @@ On app\Mail\NewMail.php we have the methods construct and build to send the emai
 ### Model: 
 On app\Models\Product.php we can check the attributes of class Product.
 
-### Access the project on http://localhost:7777/products
+#### Access the project on http://localhost:7777/products
