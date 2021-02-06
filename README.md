@@ -56,3 +56,6 @@ On app\Models\Product.php we can check the attributes of class Product.
 ```bash
 $ php artisan serve
 ````
+then go to http://127.0.0.1/products
+
+You can create, view, edit and delete products. The quotation is automatically displayed when added/edited the product list. Add a new customer and send email with the quotation.
