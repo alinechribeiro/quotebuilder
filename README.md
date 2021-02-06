@@ -5,11 +5,6 @@ The project is built with Laravel 8 framework, artisan, MySQL, Bootstrap 4 and d
 
 1. Clone the project 
 
-2. Go to the project directory and enter the command line to start the server on port 7777: 
-
-```bash
-$ php -S localhost:7777 -t .
-```
 
 ## Database
 1. Create database.
@@ -57,4 +52,7 @@ On app\Mail\NewMail.php we have the methods construct and build to send the emai
 ### Model: 
 On app\Models\Product.php we can check the attributes of class Product.
 
-#### Access the project on http://localhost:7777/products
+#### Access the project with the command 
+```bash
+$ php artisan serve
+````
