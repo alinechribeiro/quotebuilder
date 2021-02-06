@@ -16,7 +16,9 @@ $ php -S localhost:7777 -t .
 2. Add the database informations to the .env file on the following fields:
 
 DB_DATABASE=CHANGE HERE
+
 DB_USERNAME=CHANGE HERE
+
 DB_PASSWORD=CHANGE HERE
 
 3. Run the command to create the tables:
@@ -29,6 +31,7 @@ The project sends email to the customer with the list of products and quotation.
 Please add your mailtrap.io account details on .env file
 
 MAIL_USERNAME=CHANGE HERE
+
 MAIL_PASSWORD=CHANGE HERE
 
 
@@ -54,4 +57,4 @@ On app\Mail\NewMail.php we have the methods construct and build to send the emai
 ### Model: 
 On app\Models\Product.php we can check the attributes of class Product.
 
-## Access the project on http://localhost:7777/products
+### Access the project on http://localhost:7777/products
